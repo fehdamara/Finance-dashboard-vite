@@ -1,0 +1,11 @@
+{
+    "transactions": [
+      { "id": 1, "description": "Groceries", "amount": -40 },
+      { "id": 2, "description": "Salary", "amount": 1000 }
+    ],
+    "users": [
+      { "id": 1, "username": "admin", "role": "admin" },
+      { "id": 2, "username": "johndoe", "role": "user" }
+    ]
+  }
+  

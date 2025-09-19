@@ -1,0 +1,25 @@
+/* Sfondo per la pagina Home con immagine */
+.home-background {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+/* Overlay semitrasparente nero sopra lo sfondo */
+.home-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Contenuto centrato nello schermo */
+.home-content {
+  position: relative;
+  height: 100%;
+}
